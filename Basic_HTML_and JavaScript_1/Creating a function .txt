@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<button onclick="My_First_Function()">
+Click me!
+</button>
+<p id="Irish"></p>
+<script>
+function My_first_Function() {
+va String = "Kiss me, I'm Irish!";
+var result = String. fontcolor("green");
+document.getElementById("Irish").innerHTML = result;
+}
+</script>
+</body>
+</html>
+
+
+Notes:
+The above code accomplished the following: 
+Created a button element. 
+Utilized the ID attribute and assigned the paragraph element the value "Irish".
+Returned the paragraph element by calling the "Irish" value that we assigned earlier (when writing the ID attribute).
+Everything inside curly brackeds {} is our function 
